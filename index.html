@@ -402,6 +402,35 @@
                     <use href="./images/sprite.svg#close"></use>
                 </svg>
             </button>
+
+            <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+            <form action="" class="modal-form">
+                
+                <label class="modal-form-label">
+                    Имя
+                    <input class="modal-form-input" type="text" name="user-name" >
+                </label>
+
+                <label class="modal-form-label">
+                    Телефон
+                    <input class="modal-form-input" type="tel" name="user-tel">
+                </label>
+
+                <label class="modal-form-label">
+                    Почта
+                    <input class="modal-form-input" type="email" name="user-mail">
+                </label>
+
+                <label class="modal-form-label" for="message">Комментарий</label>
+                <textarea id="message" name="user-message" class="modal-form-message" placeholder="Введите текст"></textarea>
+
+               <input type="checkbox" name="user-policy" id="" class="modal-form-check-policy">
+               <label for="" class="modal-form-label-policy">
+                   Соглашаюсь с рассылкой и принимаю Условия договора
+               </label>
+
+               <button type="submit" class="modal-form-btn">Отправить</button>
+            </form>
         </div>
     </div>
 
